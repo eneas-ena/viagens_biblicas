@@ -1,7 +1,7 @@
-// Viagens Bíblicas — service worker v3.6.0
+// Viagens Bíblicas — service worker v3.7.0
 // Rede primeiro (as atualizações do GitHub aparecem logo); sem internet, usa o que está guardado.
 // Os mapas ficam guardados para a aula funcionar mesmo sem Wi-Fi. Os PDFs são guardados depois do primeiro download.
-const CACHE = 'viagens-biblicas-3.6.0';
+const CACHE = 'viagens-biblicas-3.7.0';
 const BASICOS = ['./', 'index.html', 'porteiro.js', 'manifest.json', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png', 'icon-maskable.png', 'mapas/abraao.jpg', 'mapas/exilio.jpg', 'mapas/exodo.jpg', 'mapas/jesus.jpg', 'mapas/v1.jpg', 'mapas/v2.jpg', 'mapas/v3.jpg', 'mapas/v4.jpg'];
 const SUPA = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
 self.addEventListener('install', e => {
